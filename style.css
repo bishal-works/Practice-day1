@@ -1,0 +1,309 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: #160ba7;
+    transform: scale(1.2);
+}
+
+.register_form{
+    max-width: 600px;
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10pxm rgb(31, 3, 3);
+
+    
+}
+
+/* 
+card */
+
+.maincard{
+    display: flex;
+
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    border-radius: 5px;
+    margin: 10px;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(0.9);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+
+  }
+
+  
+
+  button{
+
+    background-color: rgb(201, 8, 40);
+    text-align: center;
+    font-size: 18px;
+    color: beige;
+  }
+
+  .Nepal{
+       font-size: 50px;
+       color: rgb(218, 27, 36);
+       text-align: center;
+  }
+
+.B{
+    color: rgb(14, 4, 102);
+    font-size: 30px;
+}
+
+h3{
+  font-size: 40px;
+  color: rgb(199, 7, 7);
+
+}
+
+.india{
+  font-size: 50px;
+       color: rgb(182, 6, 6);
+       text-align: center;
+
+}
+
+.R{
+  color: green;
+  font-size: 30px;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(77, 18, 216);
+  text-align: center;
+
+
+}
+
+.Bishal{
+  color: yellow;
+  font-size: 30px;
+}
+
+.bangladesh{
+  font-size: 50px;
+  color: orangered;
+  text-align: center;
+}
+
+.D{
+  color: rgb(13, 190, 72);
+  font-size: 30px;
+}
+
+
+
+
+
+/* Calculator  */
+.calculator {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.display {
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  font-size: 1.5em;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ce9595;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #ccc;
+}
+
+.btn:nth-child(4n) {
+  background-color: #ff9500;
+  color: white;
+}
+
+.btn:nth-child(4n):active {
+  background-color: #e08900;
+}
+
+.btn:last-child {
+  grid-column: span 2;
+  background-color: #ff3b30;
+  color: white;
+}
+
+.btn:last-child:active {
+  background-color: #e0352a;
+}
+/* calculator  */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 0;
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer{
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: 30%;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  text-align: justify;
+  padding: 5%;
+}
+
+.first{
+  height:max-content;
+  width: 25%;
+  
+}
+
+.second{
+  height: max-content;
+  width: 25%;
+  margin-left: 10%;
+  
+
+}
+
+.third{
+  height: max-content;
+  width: 25%;
+  margin-right: 5%;
+ 
+}
+
+.fourth{
+  height: max-content;
+  width: 25%;
+  margin-left: 15%;
+ 
+}
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px ;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+  padding: 80px;
+}
+
+.footer-links a {
+  display: inline-block;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #413c3c;
+  transform: scale(1.2);
+}
+
+
+.email-input{
+  background-color: aliceblue;
+  padding: 8ox;
+  max-width: 70%;
+  border: 8px;
+}
+
+
+.email-input{ 
+  color: brown;
+  text-decoration: none;
+  padding-right: 5px;
+  text-size-adjust: 20px;
+}
+  
+
+
+

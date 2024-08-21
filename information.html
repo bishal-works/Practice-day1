@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(189, 113, 50);">
+
+    <!-- for header -->
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="register_form.html">Register form</a></li>
+                <li><a href="facebook.html">Facebook</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+       </div>
+      
+     
+   <!-- custom syles -->
+   <div class="calculator">
+    <div class="display" id="display">00</div>
+    <div class="buttons">
+        <button class="btn" onclick="clearDisplay()">C</button>
+        <button class="btn" onclick="deleteLast()">DEL</button>
+        <button class="btn" onclick="appendOperator('/')">/</button>
+        <button class="btn" onclick="appendOperator('*')">*</button>
+        <button class="btn" onclick="appendNumber(7)">7</button>
+        <button class="btn" onclick="appendNumber(8)">8</button>
+        <button class="btn" onclick="appendNumber(9)">9</button>
+        <button class="btn" onclick="appendOperator('-')">-</button>
+        <button class="btn" onclick="appendNumber(4)">4</button>
+        <button class="btn" onclick="appendNumber(5)">5</button>
+        <button class="btn" onclick="appendNumber(6)">6</button>
+        <button class="btn" onclick="appendOperator('+')">+</button>
+        <button class="btn" onclick="appendNumber(1)">1</button>
+        <button class="btn" onclick="appendNumber(2)">2</button>
+        <button class="btn" onclick="appendNumber(3)">3</button>
+        <button class="btn" onclick="calculate()">=</button>
+        <button class="btn" onclick="appendNumber(0)">0</button>
+        <button class="btn" onclick="appendNumber('.')">.</button>
+    </div>
+</div>
+<script src="script.js"></script>
+
+
+ <!-- for footer -->
+ <footer>
+    <div class="footer">
+     <div class="first">
+       <h2 style="color: blue;">About Us</h2>
+       <p>We have team of software engineers, designers, project managers, and quality assurance
+          professionals who collaborate to develop innovative software product.</p>
+       <p>They utlilize various programming languages, frameworks, and development 
+         tools to build software that can run on different platforms such as desktop 
+         computers, mobile devices and the web. </p>
+     </div>
+   
+   <div class="second">
+     <h2 style="color: blue;">Practice Area</h2>
+     <p>-Web Development</p>
+     <p>-Mobile App Development</p>
+     <p>-E-commence Solutions</p>
+     <p>-Digital Marketing</p>
+     <p>-IT Consulting</p>
+     <p>-Cybersecurity</p>
+     <p>-Cloud solution</p>
+     <p>-OS Traning</p>
+   
+   </div>
+   
+   <div class="third">
+     <h2 style="color: blue;">Contact INFO</h2>
+     <p>Have a project in mind or just want to learn more about how youth it can help your business? Reach out to us today!</p>
+   
+     <label for="Address" style="color: rgb(148, 243, 40);">Address:</label>
+     <p style="background-color: rgb(245, 243, 241); color: black;" >Sundarharaicha-5, Morang, Nepal</p>
+     
+   
+     <label for="phone" style="color: rgb(148, 243, 40);">Phone:</label>
+     <p style="background-color: rgb(245, 243, 241); color: black;" >9819366846</p>
+   
+     <label for="Whatsapp" style="color: rgb(148, 243, 40);">Whatsapp:</label>
+     <p style="background-color: rgb(245, 243, 241); color: black;" >9819366846</p>
+   
+     <label for="email" style="color: rgb(148, 243, 40);">E-mail:</label>
+     <p style="background-color: rgb(245, 243, 241); color: black;" >ayegameratime2@gmail.com</p>
+   
+   </div>
+   
+   <div>
+     <h2 style="color: blue;">Information</h2>
+     <p>Follow our legal advice in a form of a monthly newspaper</p>
+   
+     <div class="email-input"> <input type="email" placeholder="Your Email Address">Go</div>
+     <br>
+     <div><input type="checkbox" ><p>Accept GDPR To  Terms</p></div>
+     <h4>Policy Of Terms</h4>
+   
+   </div>
+   
+    </div>
+   
+   </footer>
+   
+   
+           
+</body>
+</html>
